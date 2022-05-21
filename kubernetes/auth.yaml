@@ -14,7 +14,7 @@ spec:
       containers:
       - name: auth
         imagePullPolicy: IfNotPresent
-        image: arashnouri1/jenkins:auth-api
+        image: arashnouri1/jenkins:auth
         ports:
           - containerPort: 3000
             name: http-web-svc
