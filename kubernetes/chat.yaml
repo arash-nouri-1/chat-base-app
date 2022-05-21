@@ -31,4 +31,4 @@ spec:
   - name: chat
     protocol: TCP
     port: 3000
-    targetPort: http-web-sv
+    targetPort: http-web-svc
